@@ -303,7 +303,7 @@ export const CauldronAnimation: React.FC = () => {
             />
             {/* Embedded Logo Image */}
             <image 
-              href="/assets/aistudio/image_4e3a065d.png" 
+              href="./assets/aistudio/image_4e3a065d.png" 
               x="178" 
               y="252" 
               width="44" 

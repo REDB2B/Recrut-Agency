@@ -66,7 +66,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInstantModal }) => {
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img 
-                src="/assets/aistudio/image_4e3a065d.png" 
+                src="./assets/aistudio/image_4e3a065d.png" 
                 alt="KOTEL HR Logo" 
                 className="w-10 h-10 rounded-xl object-cover border border-[#97D700]/40 shadow-md shadow-[#97D700]/20" 
               />
@@ -192,15 +192,23 @@ export const Footer: React.FC<FooterProps> = ({ onOpenInstantModal }) => {
 
         {/* Legal & copyright */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#A39AB8]">
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-3">
             <span>© {new Date().getFullYear()} KOTEL HR AGENCY. Все права защищены.</span>
             <span className="text-white/20">|</span>
             <a 
-              href="/kotel-landing.zip" 
-              download="kotel-hr-landing.zip"
-              className="text-[#97D700] hover:text-[#b4f01e] underline transition-colors"
+              href="./kotel-dist.zip" 
+              download="kotel-dist-ready-to-host.zip"
+              className="text-[#97D700] hover:text-[#b4f01e] underline font-bold transition-colors"
             >
-              Скачать ZIP проекта для GitHub
+              Скачать готовый сайт (dist)
+            </a>
+            <span className="text-white/20">|</span>
+            <a 
+              href="./kotel-source.zip" 
+              download="kotel-source.zip"
+              className="text-[#E5E0F5] hover:text-white underline transition-colors"
+            >
+              Исходный код (source)
             </a>
           </div>
           <div className="flex items-center gap-2 text-[#F7CED7]">

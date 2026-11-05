@@ -70,7 +70,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenInstantModal }) => {
         {/* Top Tagline with official logo mark */}
         <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#1A142E] border border-[#8B5CF6]/40 text-[#F7CED7] text-xs font-mono font-bold uppercase tracking-wider mb-6 shadow-sm">
           <img 
-            src="/assets/aistudio/image_4e3a065d.png" 
+            src="./assets/aistudio/image_4e3a065d.png" 
             alt="Logo" 
             className="w-4 h-4 rounded-md object-cover"
           />

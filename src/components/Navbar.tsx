@@ -23,7 +23,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenInstantModal }) => {
           className="flex items-center gap-3 group whitespace-nowrap shrink-0 text-decoration-none"
         >
           <img 
-            src="/assets/aistudio/image_4e3a065d.png" 
+            src="./assets/aistudio/image_4e3a065d.png" 
             alt="KOTEL HR Logo" 
             className="w-10 h-10 rounded-xl object-cover shadow-md shadow-[#97D700]/25 border border-[#97D700]/40 group-hover:scale-105 transition-transform shrink-0" 
           />
